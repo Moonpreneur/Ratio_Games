@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crack the Code: Danny's Freelance Finances!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #ece92f;">
+    <div id="logo">
+        <img src="website-logo.png" alt="Logo">
+    </div>
+    <h1 style="text-align: center; color: #333;">Crack the Code: Danny's Freelance Finances!</h1>
+    
+    <div id="start-screen">
+        <button id="startreset" onclick="startReset()">Start Game</button>
+    </div>
+
+    <div id="countdown-screen" style="display: none;">
+        <div class="countdown-container">
+            <div id="countdown-number" class="countdown-number">3</div>
+        </div>
+    </div>
+
+    <div id="game-interface" style="display: none;">
+        <div id="score">Score: 0</div>
+        <div id="timeremaining" class="container">
+            Time remaining :
+            <span id="timeremainingvalue">60</span>
+            sec
+        </div>
+        <div id="formula" style="margin: 20px; padding: 10px; background-color: #fbf9fc; border-radius: 10px; text-align: center;">
+            <table id="finances-table"></table>
+        </div>
+        <div id="reset" onclick="resetGame()">Reset Game</div>
+    </div>
+    
+    <div id="gameOver">Game Over!</div> 
+    <script src="Crack.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
